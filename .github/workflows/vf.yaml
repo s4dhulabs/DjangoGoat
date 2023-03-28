@@ -1,3 +1,9 @@
+name: DevSecOps Pipeline
+on: push
 
-- name: Run Vimana security scan
-  uses: s4dhulabs/vimana-framework@main
+jobs: 
+  vimana_framework:
+    runs-on: ubuntu-latest 
+    steps:
+     - name: Vimana Framework Scan
+       uses: s4dhulabs/vimana-framework@main
