@@ -1,4 +1,4 @@
-name: DevSecOps Pipeline
+name: Vimana Framework Security Scan
 on: push
 
 jobs: 
