@@ -1,0 +1,3 @@
+
+- name: Run Vimana security scan
+  uses: s4dhulabs/vimana-framework@main
