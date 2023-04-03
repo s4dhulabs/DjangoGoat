@@ -1,16 +1,9 @@
 name: Vimana Framework Security Scan
 on: push
+
 jobs: 
   vimana_framework:
     runs-on: ubuntu-latest 
     steps:
-      - name: Install Python 3.9
-        run: |
-          sudo apt update
-          sudo apt install software-properties-common -y
-          sudo add-apt-repository ppa:deadsnakes/ppa -y
-          sudo apt update
-          sudo apt install python3.9 -y
-      - name: Vimana Framework Scan
-        uses: s4dhulabs/vimana-framework@main
-
+     - name: Start Vimana Security Scan
+       uses: s4dhulabs/vimana-framework@main
