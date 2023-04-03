@@ -5,6 +5,6 @@ jobs:
   vimana_framework:
     runs-on: ubuntu-latest 
     steps:
-     - name: Vimana Framework Scan
+     - name: Start Vimana Security Scan
        uses: s4dhulabs/vimana-framework@main
        
