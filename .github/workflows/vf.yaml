@@ -3,7 +3,7 @@ on: push
 
 jobs: 
   vimana_framework:
-    runs-on: python:3.9
+    runs-on: ubuntu-lately 
     steps:
      - name: Start Vimana Security Scan
        uses: s4dhulabs/vimana-framework@main
