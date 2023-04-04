@@ -7,3 +7,4 @@ jobs:
     steps:
      - name: Start Vimana Security Scan
        uses: s4dhulabs/vimana-framework@main
+       
